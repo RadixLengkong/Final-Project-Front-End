@@ -1,0 +1,77 @@
+
+.result {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+.result-main h3 {
+    display: -webkit-box;
+    max-width: 500px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.result-main h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.result h1 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: normal;
+    color: rgb(6, 6, 193);
+}
+
+.result-main {
+    width: 500px;
+}
+
+.result-main h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: normal;
+    color: green;
+}
+
+.result-main h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+}
+
+.result .result-sub {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.result-sub .result-sub-icon {
+    color:rgb(6, 6, 193);
+}
+.result-sub h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: normal;
+    color:rgb(6, 6, 193);
+}
+.result-sub h4:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.result-sub h4:nth-child(4) {
+    margin-left: 5px;
+}
+.result-sub h4 {
+    margin-left: 15px;
+}
+
+.result-source {
+    padding-left: 125px;
+}
